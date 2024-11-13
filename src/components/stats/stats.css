@@ -1,0 +1,53 @@
+.downloadingStats {
+  width: calc(94% / 4);
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin: 1% 0;
+  border-radius: 10px;
+  position: relative;
+}
+.downloadingStats b {
+  font-size: large;
+  text-align: center;
+  padding: .25rem 0;
+}
+
+.downloadingStats > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  margin: 0;
+}
+.downloadingStats .progress {
+  
+  width: 100%;
+  height: 10px;
+  border-radius: 4px;
+  border: 1px solid #babeff;
+}
+.downloadingStats .progress > div {
+  background-color: #babeff;
+  height: 100%;
+}
+
+.downloadingStats .cancelDownload {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  border-radius:  5px
+}
+.downloadingStats:hover > .cancelDownload {
+  display: flex;
+}
+
+
+.downloadingStats .stat {
+  color: #646cff
+}
+
