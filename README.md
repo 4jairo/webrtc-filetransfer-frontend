@@ -2,7 +2,7 @@
 
 Allows users share files with P2P connections using WebRTC.
 
-Demo with [backend](https://github.com/4jairo/webrtc-filetransfer-backend) avaliable on <https://filetransfer.4jairo.tech>
+Backend: <https://github.com/4jairo/webrtc-filetransfer-backend>
 
 
 - **Clone this Repository**
